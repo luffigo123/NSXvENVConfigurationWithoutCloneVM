@@ -1,0 +1,221 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.vmware</groupId>
+  <artifactId>NSXvENVConfiguration</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>NSXvENVConfiguration</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+<dependencies>
+  
+  	<!-- Ganymed SSH-2: Java based SSH-2 Protocol Implementation  -->
+	 <dependency>
+		<groupId>ch.ethz.ganymed</groupId>
+		<artifactId>ganymed-ssh2</artifactId>
+		<version>build210</version>
+	</dependency>
+
+	
+	<!-- log4j -->
+	<dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+		<version>1.2.17</version>
+	</dependency>
+	
+	
+	<!--  TestNG-->
+	<dependency>
+		<groupId>org.testng</groupId>
+		<artifactId>testng</artifactId>
+		<version>6.9.9</version>
+	</dependency>
+	
+	<!-- VC packages -->
+  	<dependency>
+		<groupId>com.vmware</groupId>
+		<artifactId>vcqa</artifactId>
+		<version>6.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.vmware</groupId>
+		<artifactId>vc2</artifactId>
+		<version>6.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.vmware</groupId>
+		<artifactId>vc-eam</artifactId>
+		<version>6.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.vmware</groupId>
+		<artifactId>vc-pbm</artifactId>
+		<version>6.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.vmware</groupId>
+		<artifactId>vc-sms</artifactId>
+		<version>6.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.vmware</groupId>
+		<artifactId>vc-sps</artifactId>
+		<version>6.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.vmware</groupId>
+		<artifactId>vc-vsm</artifactId>
+		<version>6.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.vmware</groupId>
+		<artifactId>vpxd</artifactId>
+		<version>6.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.vmware</groupId>
+		<artifactId>hms-vim-vmodl</artifactId>
+		<version>6.0</version>
+	</dependency>
+	
+<!-- 	<dependency>
+	  <groupId>com.vmware</groupId>
+	  <artifactId>vcqa</artifactId>
+	  <version>vsphere65u1_0.1</version>
+	</dependency> -->
+	
+	<!-- VC relate packages -->
+	<dependency>
+		<groupId>com.sun.xml.ws</groupId>
+		<artifactId>jaxws-rt</artifactId>
+		<version>2.2.5</version>
+	</dependency>
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-api</artifactId>
+		<version>1.7.12</version>
+	</dependency>
+	<dependency>
+		<groupId>org.jvnet.jaxb2_commons</groupId>
+		<artifactId>jaxb2-basics-runtime</artifactId>
+		<version>0.9.5</version>
+	</dependency>
+	<dependency>
+		<groupId>ch.qos.logback</groupId>
+		<artifactId>logback-classic</artifactId>
+		<version>1.1.3</version>
+	</dependency>
+	<dependency>
+		<groupId>commons-configuration</groupId>
+		<artifactId>commons-configuration</artifactId>
+		<version>1.6</version>
+	</dependency>
+	<dependency>
+		<groupId>javax.xml.bind</groupId>
+		<artifactId>jaxb-api</artifactId>
+		<version>2.2.4</version>
+	</dependency>
+	<dependency>
+		<groupId>com.sun.xml.bind</groupId>
+		<artifactId>jaxb-impl</artifactId>
+		<version>2.2.4</version>
+	</dependency>
+	<dependency>
+		<groupId>com.sun.xml.bind</groupId>
+		<artifactId>jaxb-xjc</artifactId>
+		<version>2.2.4</version>
+	</dependency>
+	<dependency>
+		<groupId>commons-httpclient</groupId>
+		<artifactId>commons-httpclient</artifactId>
+		<version>3.1</version>
+	</dependency>
+
+	<!-- vsm package -->
+<!-- 	<dependency>
+		<groupId>com.vmware</groupId>
+		<artifactId>vsmclient</artifactId>
+		<version>6.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.vmware</groupId>
+		<artifactId>xstream</artifactId>
+		<version>6.0</version>
+	</dependency> -->
+	
+	<!-- Apache HttpComponents Client  -->
+	<dependency>
+		<groupId>org.apache.httpcomponents</groupId>
+		<artifactId>httpclient</artifactId>
+		<version>4.3.3</version>
+	</dependency>
+	
+	<!--  Spring -->
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-context</artifactId>
+		<version>4.2.3.RELEASE</version>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-beans</artifactId>
+		<version>4.2.3.RELEASE</version>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-core</artifactId>
+		<version>4.2.3.RELEASE</version>
+	</dependency>
+	
+	<!-- dom4j  -->
+	<dependency>
+		<groupId>dom4j</groupId>
+		<artifactId>dom4j</artifactId>
+		<version>1.6.1</version>
+	</dependency>
+	
+  </dependencies>
+  
+   	<build>
+ 		<plugins>
+
+		<!-- invoke testng.xml file -->
+ 			<plugin>
+		        <groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-surefire-plugin</artifactId>
+		        <version>2.19.1</version>
+		        <configuration>
+		         	<!-- <forkMode>once</forkMode>  -Dfile.encoding=UTF-8-->
+		         	<reuseForks>true</reuseForks>
+		         	<forkCount>1</forkCount>
+		        	<argLine>-Dfile.encoding=UTF-8 -DUSESSL=true -Xmx512m -XX:MaxPermSize=256m -XX:PermSize=256m -XX:+UseConcMarkSweepGC</argLine>
+		            <suiteXmlFiles>
+		            	<suiteXmlFile>testng.xml</suiteXmlFile>
+		            </suiteXmlFiles>
+		        </configuration>
+		    </plugin>
+ 			
+ 			<!-- avoid gbk mapping encoding problem -->
+ 			<plugin>
+ 				<groupId>org.apache.maven.plugins</groupId>  
+			    <artifactId>maven-compiler-plugin</artifactId>  
+			    <version>2.3.1</version>  
+			    <configuration>
+			        <!--assertions (-source 1.8)  --> 
+			        <source>1.8</source>
+			        <!-- JVM 1.8 (-target 1.8) -->
+			        <target>1.8</target>  
+			        <encoding>utf8</encoding>    
+			    </configuration>
+ 			</plugin>
+ 		</plugins>
+ 	</build>
+</project>

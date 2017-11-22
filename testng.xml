@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="NSXVDriver" parallel="false">
+
+	<test name="driver" preserve-order="true">
+	
+		<groups>
+			<define name="RunAvailableGroups">
+			 	<include name="luanch"></include>
+			</define>
+			
+			<define name="ExcludeGroups">
+			</define>
+			
+			<run>
+				<include name="RunAvailableGroups"></include>
+			</run>
+		</groups>
+
+		<packages>
+			<package name="com.vmware.testcases.*"></package>
+		</packages>
+	</test>
+	
+	
+</suite>

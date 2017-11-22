@@ -1,0 +1,9 @@
+<vcInfo>
+<ipAddress>172.16.99.179</ipAddress>
+<userName>administrator@vsphere.local</userName>
+<password>#EDC4rfv</password>
+<certificateThumbprint></certificateThumbprint>
+<assignRoleToUser>true</assignRoleToUser>
+<pluginDownloadServer></pluginDownloadServer>
+<pluginDownloadPort></pluginDownloadPort>
+</vcInfo>
