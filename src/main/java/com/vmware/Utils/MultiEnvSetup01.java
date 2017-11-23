@@ -47,7 +47,7 @@ public class MultiEnvSetup01 {
 	public void envSetup(){
 		startTime = dateUtils.getCurrentTime(new Date());
 		
-		log.info("NSX manager register to VC!");
+		/*log.info("NSX manager register to VC!");
 		RegisterNSXtoVC registerNSXtoVC = new RegisterNSXtoVC();
 		boolean registerFlag = registerNSXtoVC.registerNSXtoVC();
 		
@@ -83,7 +83,7 @@ public class MultiEnvSetup01 {
 			log.info("NSX failed to register on VC, can't change the NSX license!");
 		}
 		
-		log.info("Change the NSX license!");
+		log.info("Change the NSX license!");*/
 		
 //		
 //		log.info("If the VMs are read, clone the guestOS to the esxi01!");
